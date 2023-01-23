@@ -1,12 +1,9 @@
-html{
-    border-left: 5px solid lightgray;
-}
-
 body {
     max-width: 1000px;
     min-height: 100%;
     font-family: sans-serif;
-    padding-left: 2rem;
+    margin: auto;
+    border-left: 5px solid lightgray;
 }
 
 h1 {
@@ -20,6 +17,10 @@ h2 {
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
 }
 
 main {
